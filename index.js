@@ -12,8 +12,8 @@ const PASSWORD = process.env.password;
 
 app.use(
   cors({
-    orgin: "http://localhost:3000",
-    // orgin: "https://63b029f23bb42017da2568c9--warm-dodol-e6ccb1.netlify.app",
+    // orgin: "http://localhost:3000",
+    orgin: "https://neon-sundae-639b6b.netlify.app",
   })
 );
 
@@ -331,7 +331,7 @@ app.get("/:urlId", async (req,res)=>{
 
 //frond end redirect
 app.get('/',function(req,res){
-    res.redirect('https://papaya-kataifi-4a8871.netlify.app/');
+    res.redirect('https://neon-sundae-639b6b.netlify.app');
   });
 
 
